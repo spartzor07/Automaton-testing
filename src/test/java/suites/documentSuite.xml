@@ -4,7 +4,6 @@
 
     <listeners>
         <listener class-name="utilities.extent_reports.TestListener" />
-        <listener class-name="utilities." />
     </listeners>
 
     <parameter name="browserType" value="chrome" />
