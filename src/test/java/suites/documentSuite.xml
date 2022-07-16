@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests">
+
+    <listeners>
+        <listener class-name="utilities.extent_reports.TestListener" />
+        <listener class-name="utilities." />
+    </listeners>
+
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL" value="QA Environment" />
+
+    <test name="document suite">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.document.Import_documents.UploadDocumentByDragAndDropTest" />
+        </classes>
+    </test>
+
+
+</suite>

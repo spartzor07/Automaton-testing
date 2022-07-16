@@ -8,7 +8,6 @@ import pages.global_pages.SideBarPage;
 import pages.main_pages.BindersPage;
 import pages.main_pages.DocumentPage;
 import tests.BaseWithLoginAndSelectingBinderTest;
-import utilities.property.DataProviderStore;
 import utilities.property.PropertyManager;
 
 import static utilities.property.PropertyBasicData.permissionsPDFWithExtension;
