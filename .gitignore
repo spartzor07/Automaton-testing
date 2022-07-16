@@ -1,14 +1,2 @@
 # Project exclude paths
-/target/
-/reports
-!/reports/.gitexclude
-/bin/
-!/bin/.gitexclude
-/lib/*
-!/lib/Readme.MD
-
-.env*
-!.env.example
-!.env.*.example
-/screenshots/
 /screenshots/
